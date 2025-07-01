@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOSTINGS - Lost It-List It-Found It</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #25727c; /* White background color */
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .header {
+            background-color: #e0f0ff; /* Light blue background color */
+            padding: 20px 0;
+            text-align: center;
+            color: #333; /* Text color */
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 36px;
+            margin: 10px 0;
+        }
+        p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        .btn-container {
+            float: left; /* Align buttons to the left */
+            margin-top: 20px;
+            width: 30%; /* Limit the button container width */
+        }
+        .btn {
+            padding: 6px 10px; /* Reduced padding */
+            margin: 10px 0; /* Increased margin between each button */
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px; /* Smaller font size */
+            transition: background-color 0.3s ease;
+            width: 100%; /* Full width within the button container */
+            display: block;
+            text-align: center;
+            box-sizing: border-box; /* Ensure padding and border are included in width */
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            background-color: #e0f0ff; /* Light blue background color */
+            padding: 20px 0;
+            text-align: center;
+            color: #333; /* Text color */
+            margin-top: auto; /* Push footer to the bottom */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>LOSTINGS</h1>
+            <p>Lost It - List It - Found It</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="btn-container">
+            <a href="http://localhost/project/retrieve.php" target="_self" class="btn">Retrieve</a>
+            <a href="http://localhost/project/index.html" target="_self" class="btn">Submit Lost and Found Items</a>
+            <a href="http://localhost/project/aboutus.html" target="_self" class="btn">About Us</a>
+            <a href="#" class="btn">Contact Us</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            &copy; 2024 LOSTINGS. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
